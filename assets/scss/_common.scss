@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Carmine';
+    src: url('./../font-family/Carmine.woff') format('woff2'),
+        url('./../font-family/Carmine.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.f12{
+    font-size: 12px;    
+}
+.heading{
+    font-size: 24px;
+    font-weight: 700;
+    color: $theme1;
+}
+
+button{    
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    box-shadow: none;
+    border: none;
+    padding: 16px 30px;
+    width: 100%;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.pill{
+    font-size: 13px;
+    border-radius: 50%;
+    padding: 5px 10px;
+}
+
+a{
+    font-size: 14px;
+    color: $black;
+    font-weight: 600;
+    text-decoration: none;
+}
